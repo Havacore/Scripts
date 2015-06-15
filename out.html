@@ -1,0 +1,1631 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<title>EasyWeb - Login to our secure financial services site</title>
+	<script type="text/javascript" src="/waw/idp/js/common_14_3.js"></script>
+	<link rel="stylesheet" type="text/css" href="/waw/idp/styles/ew/cip_14_3.css" />
+	<link rel="icon" type="image/x-icon" href="/waw/lnf/images/cip/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="/waw/lnf/images/cip/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="/waw/lnf/ew_theme_14_3_en.css" />
+<link rel="stylesheet" type="text/css" href="/waw/lnf/evergreen_theme_14_3.css" />
+<link rel="stylesheet" type="text/css" href="/waw/lnf/standards/evergreen/1_3_9_7/css/default.css" />
+<script src="/waw/lnf/standards/evergreen/1_3_9_7/js/jquery/jquery.js"></script>
+<script src="/waw/lnf/standards/evergreen/1_3_9_7/js/jquery/jquery.metadata.js"></script>
+<script src="/waw/lnf/standards/evergreen/1_3_9_7/js/default.js"></script>
+<script src="/waw/lnf/standards/evergreen/1_3_9_7/js/modernizr.custom.37682.js"></script>
+<script type="text/javascript" src="/waw/lnf/js/fieldValidationSupport.js"></script>
+<!--[if lt IE 9]><script src="/waw/lnf/standards/evergreen/1_0/js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 10]><script src="/waw/lnf/standards/evergreen/1_0/js/PIE.js"></script><![endif]-->
+
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type" />
+<meta content="no-cache" http-equiv="pragma" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+
+
+</head>
+<body>
+	<div id="td-wrapper">
+		<!--  The Infosite header menu/pane for EasyWeb and WebBroker appears above the Login Page Container (td-container) -->
+			<div id="headerPane">
+				<div class="td-layout-row">
+					<div class="td-layout-row">
+
+	<!--  The GlobalMenu for EasyWeb and WebBroker is provided by Infosite URLs -->
+		<div id="headerMenu"><Div>
+
+
+
+
+
+ 
+
+                       
+ 
+
+
+
+
+
+
+	  
+
+
+ 
+
+                       
+ 
+
+ 
+
+<!-- CIP HEADER -->
+<a name="top" id="top"></a>
+<div class="td-skip"> <a href="#main">Skip to main content</a> </div>
+
+<header class="td-layout-row" id="td-layout-header" role="banner">
+   <div class="td-layout-fluidrow td-logo-top-nav td-margin-top-medium">
+      <div class="td-layout-fluidcolumn td-layout-fluidgrid15 td-copy-align-right td-header-flyouts">
+         <ul class="td-list-inline td-link-nounderline td-margin-bottom-none">
+            <!-- TD Home:: Start -->
+            <li><a href="https://www.tdcanadatrust.com/products-services/banking/index-banking.jsp"
+               class="td-link-dottedunderlinehover td-link-colour-grey">TD Home</a>
+            </li>
+            <!-- TD Home:: End -->
+            <!-- TD Direct Investing||TD Wealth:: Start -->
+            
+            <!-- TD Direct Investing||TD Wealth:: End -->
+            <!-- Apply:: Start -->
+            
+            <li><a href="https://www.tdcanadatrust.com/products-services/banking/apply-index.jsp"
+               class="td-link-dottedunderlinehover td-link-colour-grey">Apply</a>
+            </li>
+            
+            <!-- Apply:: End -->
+            <!-- LanguageToggel:: Start -->
+            <li class="td-header-flyout {position:'left'}">
+               <span class="td-header-label"><a class="td-link-dottedunderlinehover td-copy-grey" href="javascript:void(0);">English</a></span>
+               <ul style="left: -9999px;">
+                  <li>
+                     <a class="td-accesstext" href="#">Close details</a>
+                     <div class="td-callout td-callout-primary td-cs-tertiary td-layout-column td-layout-grid3 td-padding-top-24 td-padding-right-24 td-padding-bottom-24 td-padding-left-24 td-layout-column-first td-layout-column-last">
+                        <div class="td-padding-top-06">
+                           <ul class="td-list-links">
+                              <li class='td-copy-sub td-link-colour-grey td-margin-bottom-none'><a href='https://banquenet.td.com/waw/idp/login.htm'><span lang='fr-ca'>Fran&ccedil;ais</span></a></li>
+
+                              <li class="td-copy-sub td-link-colour-grey MultilangToggle" style="display: none;"><a id="langToggle_sc" href=""><span lang="zh-cn">ç®ä½ä¸­æ</span></a></li><br/>
+							  <li class="td-copy-sub td-link-colour-grey MultilangToggle" style="display: none;"><a id="langToggle_tc" href=""><span lang="zh-hk">ç¹é«ä¸­æ</span></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </li>
+            <!-- LanguageToggel:: End -->
+            
+            <!-- Login Option Selection:: Start -->
+            <li id="td-website-shortcuts-li">
+				<label class="td-forscreenreader">Login to</label>
+               <select id="selectbox1" name="selectbox1" class="td-nostyle td-copy-sub" >
+               
+               <option value="https://webbroker.td.com/waw/idp/">WebBroker</option>
+               
+               </select> 
+               <a class="td-button td-button-secondary td-button-compact" role="button"  onClick="FunSubmit()" href="javascript:void(0);" ><span class="td-button-label">Login</span></a>
+            </li>
+            <!-- Login Option Selection:: End -->
+            <!-- Search:: Start -->
+            <li id="td-search-li">
+               <div id="td-header-search" role="search" class="td-custom-nav-flyout-search" >
+                  
+                  <form action="https://www.tdcanadatrust.com/products-services/banking/search/index.jsp" id="globalNavSearch" method="get" target="_top">
+                  				  		
+                  <label> 
+				  <span class="td-forscreenreader">Site Search</span>
+                  <input id="td-header-search-textfield" name="query" onfocus="if(this.value=='Site Search')this.value=''" onblur="if(this.value=='')this.value='Site Search'"  type="text" value="Site Search" />
+				  </label>
+				  <label>
+                  <input id="td-header-search-button"  type="submit"  value="Search" />
+                  </label> <input name="language" type="hidden" value="en" />
+                  <input	name="site" type="hidden" value="td_canadatrust_en|td_waterhouse_en" />
+                  </form>
+               </div>
+            </li>
+            <!-- Search:: End -->
+         </ul>
+      </div>
+   </div>
+</header>
+<script type="text/javascript"> 
+   $(document).ready(function() {
+       
+   	var fullLink = $(location)[0].href;		
+   	var host = $(location)[0].hostname;
+   	host = host.split('.');
+   	var domain = host.pop();
+   	domain = '.' + domain + '/';
+   	var pageLink = fullLink.split("?")[0];
+   	pageLink = pageLink.split(domain)[1];
+   	domain = "http://www." + host.pop() + domain + pageLink;
+   
+   	domain = domain.replace("_a.jsp",".jsp");
+   	domain = domain.replace("-a.jsp",".jsp");
+   	domain = domain.replace("_b.jsp",".jsp");
+   	domain = domain.replace("-b.jsp",".jsp");
+   	domain = domain.replace("_c.jsp",".jsp");
+   	domain = domain.replace("-c.jsp",".jsp");
+   	domain = domain.replace("_d.jsp",".jsp");
+   	domain = domain.replace("-d.jsp",".jsp");
+   	
+   	var requestURL = "/servlet/com.td.mlps.servlet.MLPSCheckLinkServlet?transURL=" + domain;
+   
+   	$.get(requestURL, function (response) {
+   	
+   		if (response == "true"){
+   			var mLink_tc = domain;
+   			var mLink_sc = domain ;
+   
+   			if(fullLink.split("?").length > 1)
+   			{
+   			       var mLink_tc = mLink_tc + "?" + fullLink.split("?")[1];
+   			       var mLink_sc = mLink_sc + "?" + fullLink.split("?")[1];
+   			}
+   			
+   			mLink_tc = mLink_tc.replace("//www.","//zt.");
+   			mLink_sc = mLink_sc.replace("//www.","//zh.");					
+   							
+   			$("li.MultilangToggle").css ("display","inline");
+   			$("a#langToggle_tc").attr("href", mLink_tc);
+   			$("a#langToggle_sc").attr("href", mLink_sc);
+   	 }
+   	
+          });
+   });
+   
+   function FunSubmit() {
+   var redirect = document.getElementById("selectbox1").value;
+   window.location=redirect;
+   window.location.href=redirect;
+   
+   }
+   
+</script>
+<!-- End #td-layout-header -->
+
+
+
+
+
+<style type="text/css">
+#td-layout-header {background-color:#f1f1f1;margin:0px -13px 0px -12px;padding-bottom:17px;} 
+#td-container {padding:0px 12px;margin-top:0px;border:none;} 
+#td-layout-header select {padding:0px} 
+#td-layout-header ul li.td-header-flyout ul, .td-link-taboverlay ul {z-index:4}
+.td-button {z-index:0}
+</style>
+
+</Div>
+		</div>
+	
+	<!--  All brandings except EasyWeb and WebBroker have a hardcoded global menu -->
+					</div>
+				</div>
+			</div>
+		<div id="td-container">
+			<!--  All other brandings of the header menu/pane appears inside the Login Page Container (td-container) -->
+		<div id="flyoutMenu"><Div>
+
+<!--****************************************
+              Main Navigation
+            ****************************************--> 
+            
+<div class="td-layout-row td-logo-top-nav" id="td-layout-nav-main" role="navigation">
+<div class="td-layout-column td-layout-grid15">
+<nav class="td-nav-level2-unassisted td-nav-level2-tall td-nav-level2-fullwidth" id="td-nav-level2">
+	<ul style="left: -10991.3px;">
+	 
+				
+		
+		<li id="td-logo">
+			   
+
+					
+				
+																
+					<a href="https://www.tdcanadatrust.com/products-services/banking/index-banking.jsp" aria-describedby="flyout42201534706am0" >
+						<img src="//www.tdcanadatrust.com/images/evergreen/logos/td_shield_nowhitespace.gif"  alt="TD"></a>
+				
+					
+			 
+		</li>
+		
+			
+		
+	 
+				
+		
+			
+					
+		<li id="menuTab1" class="td-nav-level2-active">
+			
+			  
+						
+													
+													  
+
+													
+							
+													<span class="td-nav-level2-label">My Accounts	</span>
+													 
+			
+			
+			
+		
+
+			
+		</li>
+		
+	 
+				
+		
+			
+					
+		<li id="menuTab2" >
+			
+			  
+						
+													
+																
+														
+																										
+											<span class="td-nav-level2-label">
+																	<a href="https://www.tdcanadatrust.com/customer-service/contact-us/email/contact.jsp" aria-describedby="flyout42201534706am2" >
+																	Contact Us </a>	</span> 																														
+														
+													  
+
+													
+				 
+			
+			
+			
+		
+
+			
+		</li>
+		
+	 
+				
+		
+			
+					
+		<li id="menuTab3" >
+			
+			  
+						
+													
+																
+														
+																										
+											<span class="td-nav-level2-label">
+																	<a href="https://www.tdcanadatrust.com/products-services/banking/index-banking.jsp" aria-describedby="flyout42201534706am3" >
+																	Products & Services </a>	</span> 																														
+														
+													  
+
+													
+				 
+			
+			
+			
+		
+
+			
+		</li>
+		
+	 
+				
+		
+			
+					
+		<li id="menuTab4" >
+			
+			  
+						
+													
+																
+														
+																										
+											<span class="td-nav-level2-label">
+																	<a href="https://www.tdwaterhouse.ca/markets-research/markets/index.jsp" aria-describedby="flyout42201534706am4" >
+																	Markets & Research </a>	</span> 																														
+														
+													  
+
+													
+				 
+			
+			
+			
+		
+
+			
+		</li>
+		
+	 
+				
+		
+			
+					
+		<li id="menuTab5" >
+			
+			  
+						
+													
+																
+														
+																										
+											<span class="td-nav-level2-label">
+																	<a href="https://www.tdcanadatrust.com/planning/life-events/planning_future.jsp" aria-describedby="flyout42201534706am5" >
+																	Life Planning  </a>	</span> 																														
+														
+													  
+
+													
+				 
+			
+			
+			
+		
+
+			
+		</li>
+		
+	
+
+	</ul>
+</nav>
+</div>
+</div>
+
+<!-- End Main Navigation --></Div>
+		</div>
+		
+			<div id="bodyPane">
+<style type="text/css">
+#selectbox1 {
+	height:19px;
+}
+#td-header-search-textfield {
+	height:15px;
+	margin-top:2px !important;
+}
+</style>
+	<script src="/waw/idp/js/browserDetection.js" type="text/javascript"></script>
+	<script src="/waw/idp/js/pm_fp.js" type="text/javascript"></script>
+	<script src="/waw/idp/js/devicePrint.js" type="text/javascript"></script>
+
+<script>
+	window.onload = function() {   
+	  	checkCookies();
+	  	checkSessionTimeout(); 
+  	};  		
+</script>
+<form id="j_id98" name="j_id98" method="post" action="/waw/idp/login.htm?execution=e1s1" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id98" value="j_id98" />
+
+	<div id="cookieEnable" class="languagelink" style="display:none;">
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var p = document.createElement("input");p.type = "hidden";p.name = k;p.value = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a id="j_id98:L1" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.forms['j_id98'],{'j_id98:L1':'j_id98:L1'},'');}return false">Fran&ccedil;ais</a>
+	</div> 
+	<div id="cookieDisable" class="languagelink" style="display:block;"><a id="j_id98:L2" name="j_id98:L2" href="https://banquenet.td.com/waw/idp/login.htm">Fran&ccedil;ais</a>
+	</div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="e1s1" />
+</form>
+
+<div id="cip_leftPane">
+    <div id="serviceBanner"><Div><p>
+
+<style>
+
+.INFOSITEtoolboxlite {
+
+	color: #006666;
+
+	font-size: 10px;	
+
+	text-align: left;	
+
+}
+
+.INFOSITEcellL {
+
+	text-align: left;
+
+}
+
+.INFOSITEelement {
+
+	border: 1px solid #EAF4D7;
+
+}
+
+.INFOSITEcellPad{
+
+	padding : 0.3em;
+
+}
+
+.INFOSITEtoolbox {
+
+	color: #103F26;
+
+	font-size: 0.9em;
+
+	font-weight: bold;
+
+}
+
+.INFOSITEcolbackgreen {
+
+	background-color: #EAF4D7;
+
+}
+
+
+
+   #OnlineSecurity h4{color: #555555;font-family: Arial,Helvetica,sans-serif;font-size: 14px;font-weight: bold;
+
+line-height: 1.2em;margin: 1.5em 0 0.5em 5em;}
+
+   #OnlineSecurityTitle {height:72px; background: url("https://www.tdcanadatrust.com/images/security/TD-SECURITY-LOGO-75PX.jpg") left top no-repeat !important}
+
+   #OnlineSecurity .td-link-icon{background: url("https://www.tdcanadatrust.com/images/evergreen/links/icon-link-secondary.png") no-repeat 0 0;height: 8px;margin: -1px 0 0 5px;width: 5px;}
+
+</style>
+
+<div id="ie7" style="display:none;">
+
+	<table width="172" class="INFOSITEelement" >
+
+	<tbody>
+
+		<tr class="INFOSITEcolbackgreen">
+
+		<td valign="top" class="INFOSITEcellPad">
+
+		<img width="1" height="1" border="0" alt="" src="https://www.tdcanadatrust.com/images/transp.gif" />
+
+		</td>
+
+		<td class="INFOSITEtoolbox INFOSITEcellL INFOSITEcellPad">
+
+		<div style="font-size:12px; font-family: verdana, helvetica, sans serif;color:#ff0000;">
+
+		Internet Explorer 7 Users:
+
+		</div>
+
+		</td>
+
+		</tr>
+
+		<tr>
+
+		<td valign="top" class="INFOSITEcellPad">
+
+		<img width="1" height="1" border="0" alt="" src="https://www.tdcanadatrust.com/images/transp.gif" />
+
+		</td>
+
+		<td class="INFOSITEtoolboxlite INFOSITEcellL INFOSITEcellR INFOSITEcellPad">
+
+
+
+ 
+
+		<br>
+
+
+
+		</td>
+
+		</td>
+
+		</tr>
+
+	</tbody>
+
+	</table>
+
+</div>
+
+	</p>
+
+<script>
+
+	var userAgent = navigator.userAgent.toLowerCase();
+
+
+
+
+
+</script>
+
+<!--- Tablet Detection Start  -------------->
+
+
+
+<script>
+
+	var appStoreUrl = "";
+
+	var curr_tablet_cookie_value = "2014081";
+
+	var curr_mobile_cookie_value = "2014101";
+
+	var bannerHt = "+=300px";
+
+	
+
+	$(document).ready(function() {
+
+		if (  isTablet(userAgent))  {
+
+	    
+
+			// set tablet app download link depending on user agent (iPad or Android)
+
+			if (isIPad(userAgent)) {
+
+				appStoreUrl = "http://appstore.com/TDforiPad";
+
+			} else if (isAndroidTablet(userAgent)) {
+
+				appStoreUrl = "https://play.google.com/store/apps/details?id=com.tdcanada.mobileapp";
+
+			}
+
+			// show overlay for tablet
+
+			if (checkTabletCookie()) {
+
+
+				$('#tabletPlaceHolder').insertBefore('#td-wrapper');
+			
+
+				$("#headerPane").animate({
+
+					marginTop: "+=210px",
+
+				}, 100 );
+
+				$('#tabletPlaceHolder').fadeIn();
+
+			}
+
+			$('a.appStoreUrl').click(function () {
+
+				trackCustomLink('tdct:p:tablet app banner:yes','button','onclick');
+
+				window.setTimeout(function() {
+
+					location= appStoreUrl;
+
+				}, 500);
+
+				
+
+			});			
+
+			$('.closeOverlay').click(function () {
+
+				if ($('#doNotshow').is(":checked")) {
+
+					var expiryDate = new Date ();
+
+					expiryDate.setFullYear(expiryDate.getFullYear() + 10);
+
+					expiryDate = expiryDate.toGMTString();
+
+					setCookie9('doNotShowAppDownload',curr_tablet_cookie_value,'/','td.com',expiryDate);
+
+		
+
+					trackCustomLink('tdct:p:tablet app banner:do not show','link','onclick');
+
+				}
+
+				$("#headerPane").animate({
+
+					marginTop: "0px",
+
+		    		}, 100 );
+
+				$('#tabletPane').hide();
+
+
+
+			});
+
+		}
+
+		else if (  isPhone(userAgent))  {
+
+		
+
+			// set tablet app download link depending on user agent (iPhone or Android)
+
+			if ( isIPhone(userAgent)) {
+
+				appStoreUrl = "http://itunes.apple.com/ca/app/td/id358790776?mt=8";
+
+				//$('#phoneDiv').removeClass('td-layout-fluidgrid4').addClass('td-layout-fluidgrid3') ;
+
+			} else if ( isAndroid(userAgent)) {
+
+				appStoreUrl = "https://market.android.com/details?id=com.td&feature=search_result";
+
+			} else if ( isBB10(userAgent)) {
+
+				appStoreUrl = "http://appworld.blackberry.com/webstore/content/10661/?countrycode=CA&lang=en";
+
+			} else if ( isBB(userAgent)) {
+
+				appStoreUrl = "http://www.td.com/blackberryapp/download";
+
+			}
+
+			// show overlay for phone
+
+		
+
+			if (checkMobileCookie()) {
+
+			
+
+				$('#phonePlaceHolder').insertBefore('#td-wrapper');
+
+		 		$("#shadow").toggle();
+
+		 	
+
+		
+
+		 		if (isAndroid(userAgent))
+
+		 		{
+
+		 			$("#Androidbanner").show();
+
+		 			bannerHt = "+=800px";
+
+		 		}
+
+				$("#td-container").animate({
+
+					marginTop: bannerHt,
+
+				}, 100 );
+
+		
+
+				$('#phonePlaceHolder').fadeIn();
+
+			 }
+
+		
+
+		
+
+			$('a.appStoreUrlM').click(function () {
+
+			
+
+				trackCustomLink('tdct:p:smartphone app banner:yes','button','onclick');
+
+				window.setTimeout(function() {
+
+					location= appStoreUrl;
+
+				}, 500);
+
+		
+
+			});
+
+			$('.closeOverlayM').click(function () {
+
+				if ($('#doNotshowMobile').is(":checked")) {
+
+					var expiryDate = new Date ();
+
+					expiryDate.setFullYear(expiryDate.getFullYear() + 10);
+
+					expiryDate = expiryDate.toGMTString();
+
+					setCookie9('doNotShowAppDownload',curr_mobile_cookie_value,'/','td.com',expiryDate);
+
+		
+
+					trackCustomLink('tdct:p:smartphone app banner:do not show','link','onclick');
+
+				}			
+
+		 		$("#shadow").toggle();
+
+				$("#td-container").animate({
+
+					marginTop: "0px",
+
+				}, 100 );
+
+				$('#phonePane').hide();
+
+			});
+
+		}
+
+	});
+
+	// tablet detection	
+
+	function isTablet(userAgent) {
+
+		return (isIPad(userAgent) || isAndroidTablet(userAgent)); 
+
+	}
+
+	function isIPad(userAgent) { 
+
+		return (userAgent.search("ipad") > -1);
+
+	}
+
+	function isAndroidTablet(userAgent) {
+
+		return ((userAgent.search("android") > -1) && (screen.width >=600 && screen.height >= 600 ));
+
+	}
+
+	function checkTabletCookie() { 
+
+		return (getCookie9('doNotShowAppDownload') != curr_tablet_cookie_value);
+
+	}
+
+	function getCookie9(key) {
+
+		var i,x,y,ARRcookies=document.cookie.split(";");
+
+		for (i=0;i<ARRcookies.length;i++){
+
+			x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+
+			y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+
+			x=x.replace(/^\s+|\s+$/g,"");
+
+			if (x==key) {
+
+				return unescape(y);
+
+			}
+
+		}
+
+		return "";
+
+	}
+
+	function setCookie9(name,value,path,domain,expires) {
+
+		document.cookie = name + "=" + escape(value) +
+
+		((expires) ? "; expires=" + expires : "") +
+
+		((path) ? "; path=" + path : "") +
+
+		((domain) ? "; domain=" + domain : "");
+
+	}
+
+
+
+	// phone detection
+
+
+
+
+
+	function isIPhone(userAgent) {
+
+		return (userAgent.search("iphone") > -1);
+
+	}
+
+	function isAndroid(userAgent) {
+
+		return ((userAgent.search("android") > -1) );
+
+	}
+
+	function isBB10(userAgent) {
+
+		return ((userAgent.search("bb10") > -1) );
+
+	}
+
+	function isBB(userAgent) {
+
+		return ((userAgent.search("blackberry") > -1) );
+
+	}
+
+	function isPhone(userAgent) { 
+
+		return (isIPhone(userAgent) || isAndroid(userAgent) || isBB10(userAgent) || isBB(userAgent));
+
+	}
+
+	function checkMobileCookie() { 
+
+		return (getCookie9('doNotShowAppDownload') != curr_mobile_cookie_value);
+
+	}	
+
+	
+
+</script>
+
+<div id="tabletPlaceHolder" style="display:none;">
+
+	<div id="tabletPane" class="td-layout-fluidrow" style="margin:0 auto;width:98.6%;position:absolute;top:0;left:0.7%;">
+
+		<div class="td-layout-fluidcolumn td-layout-fluidgrid12">
+
+			<div class="td-callout td-callout-primary td-cs-primary" style="padding-bottom:16px;">
+
+				<div class="td-callout-content">
+
+					<div class="td-layout-row">
+
+						<div class="td-layout-column td-layout-grid3">
+
+							<a class="closeOverlay" href="javascript:void(0);" onclick="trackCustomLink('tdct:p:tablet app banner:exit','button','onclick');"><img src="https://www.tdcanadatrust.com/easyweb5/login/images/close.png" alt="Close" /></a>
+
+							<br><a class="closeOverlay appStoreUrl" href="javascript:void(0);" rel="external" onclick="trackCustomLink('tdct:p:tablet app banner:appstore','button','onclick');"><img src="https://www.tdcanadatrust.com/easyweb5/login/images/td-tablet-bythelake.jpg" class="td-margin-top-small" alt="TD tablet" width="164" height="108" /></a>
+
+						</div>
+
+
+
+						<div class="td-layout-column  td-layout-grid12">
+
+							<div class="td-layout-row">
+
+								<div class="td-layout-column td-layout-grid12">
+
+									<h3 class="td-h3 td-margin-top-small"><strong>Transfer money on-the-go</strong></h3>
+
+									  <p>
+
+									Move money between your TD Canada Trust Canadian and U.S dollar accounts using the TD app.
+
+									</p>
+
+									<hr class="td-divider-fade td-divider-fade-fadetoright" />
+
+								</div>
+
+							</div>						
+
+							<div class="td-layout-row td-layout-grid11">
+
+								<div class="td-layout-column td-layout-column-first td-layout-grid6">
+
+									<h4 class="td-h4 td-margin-top-small">Do you want to launch the TD tablet App?</h4>
+
+								</div>
+
+								<div class="td-layout-column td-layout-column-last td-margin-top-small td-layout-grid4">
+
+									<a class="closeOverlay appStoreUrl td-button td-button-primary" style="margin-right:20px;" href="javascript:void(0);" rel="external"><span class="td-button-label">Yes</span></a>
+
+									<a class="closeOverlay td-button td-button-secondary" href="javascript:void(0);" rel="external" onclick="trackCustomLink('tdct:p:tablet app banner:no','button','onclick');"><span class="td-button-label">No Thanks</span></a>
+
+								</div>
+
+							</div>
+
+							<div class="td-layout-row td-layout-grid11">							
+
+								<p class="td-layout-column td-margin-top-large td-copy-grey" style="margin-left:-6px;">
+
+									<input type="checkbox" id="doNotshow" style="vertical-align:middle;">&nbsp;<span style="vertical-align:middle;">Do not show this until the next version of the TD tablet App is released</span>
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>				 
+
+		</div>
+
+		<div style="clear:both"></div>
+
+	</div> 
+
+</div>  
+
+<!--- Tablet Detection End -------------->
+
+<style>
+
+
+
+.td-button-label.td-copy-emphasized {
+
+    font-size: 3.2em !important;
+
+}
+
+.td-h1.td-copy-emphasizedheader {
+
+    font-size: 4em !important;
+
+}
+
+sameline{
+
+display : inline-bloc;
+
+}
+
+</style>
+
+
+
+
+
+<div id="phonePlaceHolder" style="display:none;" class="td-layout-fluidrow">
+
+	<div id="phonePane"  style="margin:0 auto;width:98.6%;position:absolute;top:0;left:0.7%;">
+
+		<div class="td-layout-fluidcolumn td-layout-fluidgrid12" id="phoneDiv">
+
+			<div class="td-callout td-callout-primary td-cs-primary" style="padding-bottom:16px;">
+
+				<div class="td-callout-content">
+
+					<div class="td-layout-fluidrow">
+
+						<div class="td-layout-fluidcolumn">
+
+							<a class="closeOverlayM td-floatleft" href="javascript:void(0);"  onclick="trackCustomLink('tdct:p:smartphone app banner:exit','button','onclick');"><img src="https://www.tdcanadatrust.com/easyweb5/login/images/close.png" alt="Close" /></a>
+
+							<img src="https://www.tdcanadatrust.com/easyweb5/login/images/mbanner.jpg"  class="td-image-fullwidth td-JShide" id="Androidbanner" alt="Close" />
+
+
+
+						</div>
+
+
+
+					</div>
+
+					<div  style="margin-left:50px;">
+
+					<h1 class="td-h1 td-margin-top-small td-copy-emphasizedheader td-floatleft"><strong>Do you want to launch the TD  App?</strong></h1>
+
+
+
+					<div class="td-layout-fluidrow">
+
+						<div class="td-layout-fluidcolumn td-layout-column-first  td-layout-grid7">
+
+								<a class="closeOverlayM appStoreUrlM td-button td-button-primary td-button-fullwidth xtd-margin-bottom-large" href="javascript:void(0);" rel="external"><span class="td-button-label td-copy-emphasized td-copy-emphasized-custom">Yes</span></a>
+
+						</div>
+
+						<div class="td-layout-fluidcolumn td-layout-column-last td-layout-grid7">
+
+								<a class="closeOverlayM td-button td-button-secondary  td-button-fullwidth"  href="javascript:void(0);" ><span class="td-button-label td-copy-emphasized td-copy-emphasized-custom" onclick="trackCustomLink('tdct:p:smartphone app banner:no','button','onclick');">No thanks</span></a>
+
+						</div>
+
+					</div>
+
+					<div class="td-layout-row ">
+
+						<div class="td-layout-column td-margin-top-small td-copy-grey " style="margin-left:-6px; font-size: 2em;">
+
+						<div class="sameline"><input type="checkbox" id="doNotshowMobile" style="vertical-align:middle;">&nbsp;<span class="" style="vertical-align:middle;"><!label for="doNotshowMobile"><strong>Do not show this until the next version of the TD mobile App is released</strong><!/label></span>
+
+						</div></div>
+
+					</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div style="clear:both"></div>
+
+	</div>
+
+</div>
+
+<!--- phone Detection End -------------->
+
+<div id="spacer" style="padding-top:25px;"> </div>
+
+<!----------------->
+
+<div id="login-attention" style="display:none; ">
+
+	<div class="td-callout td-callout-story td-cs-highlight">
+
+	<div class="td-callout-heading">
+
+	<h4 class="td-h4">Attention! </h4>
+
+	</div>
+
+	<divclass="td-callout-content">
+
+	</div>
+
+	</div>
+
+</div>
+
+<!----------------->
+
+
+
+<div id="OnlineSecurity" style="margin-top:-20px;">
+
+	<div id="OnlineSecurityTitle">
+
+   		<h4> TD ONLINE AND<br/> MOBILE SECURITY<br/> GUARANTEE</h4>
+
+		<a style="margin-left: 5.5em !important" href="http://www.tdcanadatrust.com/products-services/banking/electronic-banking/access-card-security/guarantee.jsp" target="_blank">Learn more <span class="td-link-icon">></span></a>
+
+    </div>        
+
+</div>
+
+
+
+<div  id="td-login-left" style="margin-top:6px;">
+
+    <div class="td-callout td-callout-tertiary  ">
+
+   
+
+   
+
+<!----------------->
+
+	<div id="protect" style="margin-top:42px">
+
+	<div  style="margin-left:13px;text-indent:-13px;">
+
+	  <a class="td-link-toggle {targetelement: '.td-Protect'}" href="#" ><span class="td-triggericon" >Expand</span> <span style="line-height:1.1em;"><b>Protect yourself against fraud</b></span></a></div>
+
+        <div class="td-JShide td-Protect td-copy-standard" style="margin-top:5px;">
+
+		<p>Knowing how to recognize, report and prevent phishing, is important.</p>
+
+		<p>
+
+		<a class="td-link-standalone td-link-standalone-secondary" href="http://www.td.com/privacy-and-security/privacy-and-security/how-you-can-protect-yourself/protect-yourself.jsp">Learn more </a></p>
+
+		<p>
+
+		If anything looks suspicious, report it to <a href="mailto:phishing@td.com">phishing@td.com</a></p>
+
+         </div>
+
+</div><!-- End .td-callout -->
+
+</div>
+
+<script type="text/javascript">
+
+$(".td-JShide").hide();
+
+</script>
+
+
+
+
+
+<!-------special notices---------->
+
+
+
+
+
+</Div>
+	</div>
+	<!-- Empty DIV added for Accessibility. This is to allow JAWS to read the page properly when empty content is rendered in the serviceBanner -->
+	<div style="height: 0.1px;">&nbsp;</div>
+</div>
+<!-- Not indenting these div tags for readability since they have no content-->
+<div id="evergreenLoginPane">
+	<div id="mainContent">
+		<div>
+		<div class="td-layout-row">
+			<div class="td-layout-column td-layout-grid7">
+				<div id="td-pagetitlearea td-margin-bottom-small">
+					<a id="main" tabindex="-1"></a>
+					<h1 class="td-margin-top-none td-margin-bottom-none">EasyWeb</h1>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="td-layout-row">
+		<h3 class="td-margin-top-none">Login to our secure financial services site
+		</h3>
+		</div>
+		<div class="td-layout-row">
+		<div class="td-layout-column td-layout-grid8">
+			<div id="errorMessage" style="display:none" class="td-callout td-callout-primary td-cs-error" tabindex="1">
+			</div>
+		</div>
+		</div><input id="errorCode" type="hidden" name="errorCode" />
+		<div class="td-layout-row">
+		<div class="td-layout-column td-layout-grid8">
+		<div style="display:none">
+		<a class="errorLink" onkeypress="scrollOnActivate(event, '#login\\:AccessCard')" onclick="scrollAndFocus('#login\\:AccessCard')" id="accesscardMessage" tabindex="1">Please enter your Username or Access Card number.</a>
+		<a class="errorLink" onkeypress="scrollOnActivate(event, '#login\\:Webpassword')" onclick="scrollAndFocus('#login\\:Webpassword')" id="passwordMessage" tabindex="1">Please enter your password.</a>
+		</div>
+		</div></div>
+		<div class="td-layout-row">
+		<div class="td-layout-column td-layout-grid8">																	
+		<form id="login" class="td-callout td-callout-story td-cs-primary" name="login" action="/waw/idp/authenticate.htm" method="post">								
+		<fieldset>
+			<input type="hidden" id="login:timeout" name="login:timeout" value="5" />							
+			<input type="hidden" id="login:deviceAgent" name="login:deviceAgent" value="" />
+			<input type="hidden" id="login:osVersion" name="login:osVersion" value="" />
+			<input type="hidden" id="login:platform" name="login:platform" value="" />
+			<input type="hidden" id="login:osMinorVersion" name="login:osMinorVersion" value="" />
+			<input type="hidden" id="login:cpuClass" name="login:cpuClass" value="" />
+			<input type="hidden" id="login:browserLanguage" name="login:browserLanguage" value="" />
+			<input type="hidden" id="login:colorDepth" name="login:colorDepth" value="" />
+			<input type="hidden" id="login:width" name="login:width" value="" />
+			<input type="hidden" id="login:height" name="login:height" value="" />
+			<input type="hidden" id="login:availableHeight" name="login:availableHeight" value="" />
+			<input type="hidden" id="login:timeZoneOffset" name="login:timeZoneOffset" value="" />
+			<input type="hidden" id="login:clientCanStoreDeviceId" name="login:clientCanStoreDeviceId" value="false" />
+			<input type="hidden" id="login:deviceIdentifier" name="login:deviceIdentifier" value="" />
+			<input type="hidden" id="login:devicePrint" name="login:devicePrint" value="" />
+			<legend>Login to our secure financial services site
+			</legend>
+			
+		
+					<div id="dropDownList" style="display:none;">
+					<div style="display:none">
+						<div class="td-layout-row">
+							<div class="td-layout-column td-layout-grid2">
+							</div>
+							<div class="td-layout-column td-layout-grid3"><br />
+								<span class="normaltxt">
+									<a href="#" tabindex="7" id="removeFromList">Remove from List</a>
+								</span>
+							</div>
+						</div>	
+					</div>
+					<div class="td-layout-row">
+						<div class="td-layout-column td-layout-grid2">
+							<div style="display:none">
+						 	</div>
+						 </div>
+					</div>
+				 	</div>
+				 		<div class="td-layout-row">
+				 			<div class="td-layout-column td-layout-grid5">&nbsp;</div>
+							<div class="td-layout-column">										
+								<label for="login:description" class="td-copy-sub" style="display: block">Description (Optional)</label>
+							</div>
+						</div>
+					<div class="td-layout-row td-margin-bottom-medium">
+						<div class="td-layout-column td-layout-grid2">												
+							<label id="Card" class="td-copy-align-right" for="login:AccessCard"><span class="boldFont">Username or Access Card</span><br />(no spaces)
+							</label>
+						</div>
+						<div class="td-layout-column td-layout-grid5">	
+							<div class="td-layout-row">	 
+								<div class="td-layout-column td-layout-grid3">
+									<input tabindex="2" name="login:AccessCard" type="text" class="accessCardField" id="login:AccessCard" onchange="clearDescriptionBox();" value="" maxlength="32" autocomplete="off">
+									</input>
+								</div>
+								<div class="td-layout-column td-layout-grid2">
+										<input tabindex="8" id="login:description" type="text" name="login:description" class="descriptionFieldWidth" value="" maxlength="15" autocomplete="off" />
+								</div>
+							</div>
+								<div class="td-layout-row">
+									<input tabindex="9" type="checkbox" id="rememberMeCBox" name="rememberMeCBox" class="rememberTxt" aria-labelledby="rememberme" />&nbsp;<a id="R1" name="R1" href="" onclick="help('https://www.tdcanadatrust.com/easyweb5/help/banking/acc00014.jsp'); return false;" tabindex="10"><span id="rememberme">Remember me</span></a>
+								</div>
+						</div>
+						
+					</div>
+					<div class="td-layout-row">			
+						<div class="td-layout-column td-layout-grid2">			
+						    <label id="password" class="td-copy-align-right" style="display: block" for="login:Webpassword"><span class="boldFont">Password</span></label>
+						</div>
+						<div class="td-layout-column td-layout-grid3">
+							<input tabindex="3" name="login:Webpassword" type="password" class="accessCardField" id="login:Webpassword" size="24" value="" maxlength="32" autocomplete="off" />
+						</div>
+						<div class="td-layout-column td-layout-grid2">
+							<input tabindex="4" id="login" type="submit" class="td-button td-button-primary" value="Login" onclick="setDevicePrintFormFields('login'); return clickOne();" title="Login to our secure financial services site" />
+						</div>
+					</div>	
+					<div class="td-layout-row">	
+						<div class="td-layout-column td-layout-grid2">&nbsp;</div>
+						<div class="td-layout-column td-layout-grid5">
+							
+								<span class="pwdTxt"><a id="T9" name="T9" href="/waw/idp/userNamePasswordHelp.htm?logonId=" tabindex="5">Forgot your Username or Password?</a>
+								</span>
+						</div>
+					</div>
+					
+		</fieldset>
+		</form>
+		</div></div>
+		<div class="td-layout-row"><div class="td-layout-column">				
+		<div id="securityPane"><Div>
+<style>
+#loginPane FORM SELECT {font-size:14px;}
+#loginPane FORM INPUT {font-size:14px;}
+</style>
+
+<!-- B1 -->
+<script type="text/javascript">
+<!--
+OAS_url = 'https://ads.tdcanadatrust.com';
+OAS_sitepage = 'www.tdcanadatrust.com/easyweblogin';
+OAS_pos = 'Frame1!Frame1';
+OAS_query = 'tdct'; // Search Terms/Keywords
+
+var OAS_RN = new String (Math.random());
+var OAS_RNS = OAS_RN.substring (2,11);
+
+document.write('<scr' + 'ipt type="text/javascript" src="' + OAS_url + '/RealMedia/ads/adstream_jx.ads/' + OAS_sitepage + '/1' + OAS_RNS + '@' + OAS_pos + '?' + OAS_query + '"></scr' + 'ipt>');
+// -->
+</script>
+<!--B1 Ends-->
+
+<script type="text/javascript">
+function setupbanner () {
+
+}
+</script>
+<script type="text/javascript">
+function openPopup(){
+	winAtts="width=560,height=600,resizable=yes,scrollbars=yes";
+	HelpWindow = window.open("http://www.tdcanadatrust.com/easyweb5/easyweb-changes-flyout.jsp",'newwindow',winAtts);
+}
+</script>
+<style>
+#banner-title { line-height:1.3em; }
+a.title-link {color:#555555;}
+a.title-link:hover, a.title-link:focus, a.title-link:active{color:#555555;}
+.td-ul-li {
+	background-image: url("https://www.tdcanadatrust.com/images/evergreen/ui/bullet.gif");
+	background-position: 0 0.6em;
+	background-repeat: no-repeat;
+	line-height: 1.2em;
+	list-style: none outside none;
+	margin: 0 0 0.5em;
+	padding: 0 0 0 12px;
+	position: relative;
+}
+</style>
+
+
+
+
+
+
+<div class="td-layout-row">
+	<div class="td-callout td-callout-primary td-cs-primary">
+    	<div clas="td-layout-row">
+        	<div class="td-layout-column td-layout-grid1">
+            	<img src="https://www.tdcanadatrust.com/images/easyweb5/login/td-icon-info.png" alt="Important"/>
+            </div>
+        	<div class="td-layout-column td-layout-grid6">
+                <div class="td-callout-heading">
+                    <h4 style="border:none" class="td-margin-bottom-medium td-margin-top-small"><strong>Find it faster with our new EasyWeb navigation. </strong></h4>
+                </div>
+                <div class="td-callout-content">
+                    <p><a class="td-link-standalone td-link-standalone-primary" href="#" onclick="openPopup();return false;">Take a look</a></p>
+                </div>
+             </div>
+             <div style="clear:both"></div>
+        </div>
+    </div><!-- End .td-callout -->
+</div>
+
+
+</Div>
+		</div>
+		<div id="termsConditions"><Div>
+
+    <p class="td-legal">
+
+    By using EasyWeb, our secure financial services site, offered by <span class="">TD Canada Trust</span> and its affiliates, you agree to the terms and conditions of the</span>
+
+
+
+<a class="disclm" href="#" onClick="tour('https://www.tdcanadatrust.com/easyweb5/help/banking/acc00150.htm');return false;">Financial Services Terms</a><span class="INFOSITEtable">,</span>
+
+
+
+<a class="disclm" href="#" onClick="tour('https://www.tdcanadatrust.com/popup/accounts/cardholder-popup.html');return false;">Cardholder and Electronic Financial Services Terms and Conditions</a> <span class="INFOSITEtable">and/or; the</span>
+
+
+
+<a class="disclm" href="#" onClick="tour('https://www.tdcanadatrust.com/easyweb5/help/banking/acc00151.htm');return false;">Business Access Services Schedule</a><span class="INFOSITEtable">, and/or; the</span>
+
+
+
+<a class="disclm" href="#" onClick="tour('https://www.tdcanadatrust.com/mutualfunds/webfundcond_inc.html');return false;">Terms and Agreement</a> <span class="INFOSITEtable">and</span>
+
+
+
+<a class="disclm" href="#" onClick="tour('https://www.tdcanadatrust.com/mutualfunds/tdam_disclaimer_inc.html');return false;">Disclosure</a> <span class="INFOSITEtable">for mutual fund accounts held with TD Investment Services Inc.</span>
+
+</p>
+
+
+
+
+
+
+
+
+
+</Div>
+		</div>
+		</div></div>					
+	</div>	<!-- end mainContent -->
+</div>	<!-- end loginPane -->
+<div id="cip_rightPane"><Div><div id="login-start" class="td-callout td-callout-tertiary td-margin-bottom-none td-padding-bottom-03" style="padding-top:67px;display:none; ">
+	<div class="td-callout-heading">
+		<h3 class="td-h3" style="border-top:0px;">Getting started is Quick and Easy</h3>
+	</div>
+	<div class="td-callout-content td-copy-standard">
+		<p>
+			If you received a temporary password, simply use that along with your username to log in. You will then be prompted to create a new one.
+		</p>
+		<ul class="td-list-links">
+			<li><a href="http://www.tdcanadatrust.com/easyweb5/start/get_started.jsp" title="Register Online Now" tabindex="24">Register Online Now</a></li>
+			<li><a href="http://www.tdcanadatrust.com/products-services/banking/electronic-banking/mobile/mobile-index.jsp" tabindex="25" title="Get the TD Mobile App now">Get the TD Mobile App now</a></li>
+		</ul>
+		<p>
+			<hr class="td-divider-fade td-divider-fade-fadetoright td-cs-tertiary td-margin-bottom-none"/>
+		</p>
+	</div>
+</div>
+
+<div id="login-return" class="td-callout td-callout-tertiary td-margin-bottom-none td-padding-bottom-03" style="display:none; ">
+	<div class="td-callout-content">
+		<h5 class="td-h5" style="color: #1a5336;"><a class="td-link-toggle {targetelement: '.td-login-help1'}" href="#" tabindex="26" title="We Can Help"><span class="td-triggericon td-triggericon-expanded">Collapse</span><span><b>We Can Help</b></span></a></h5>
+		<div class="td-login-help1">
+			<a href="http://td.intelliresponse.com/login/" class="td-popupwindow td-link-newwindow-withicon" tabindex="27" rel="width:550;" title="(opens new window)">Get Login Help</a></li>
+			<ul class="td-list-links" style="margin-top:5px;">
+				<li><a href="/waw/idp/userNamePasswordHelp.htm?logonId=" title="Reset Password" tabindex="28">Reset Password</a></li>
+				<li><a href="https://www.tdcanadatrust.com/ebanking/sup-br.jsp" title="Supported Browsers" tabindex="29">Supported Browsers</a></li>
+				<li><a href="https://www.tdcanadatrust.com/products-services/banking/electronic-banking/easyweb-demo.jsp" title="Try the Demo" tabindex="30">Try the Demo</a></li>
+			</ul>
+			<hr class="td-divider-fade td-divider-fade-fadetoleft td-cs-tertiary"/>
+			<h3 style="margin-top:5px;margin-bottom:5px;">Test-drive the <a href="https://www.tdcanadatrust.com/products-services/banking/electronic-banking/easyweb-demo.jsp">EasyWeb Demo</a> and explore online banking.</h3>
+			<hr class="td-divider-fade td-divider-fade-fadetoleft td-cs-tertiary" />
+			<h3>Anytime, anywhere and even on the go</h3>
+			<p>
+				<a href="http://www.tdcanadatrust.com/products-services/banking/electronic-banking/mobile/mobile-index.jsp" tabindex="31" class="td-link-standalone td-link-standalone-secondary" title="Get the TD Mobile App now">Get the TD app <br>
+				now</a>
+			</p>
+			<hr class="td-divider-fade td-divider-fade-fadetoleft td-margin-bottom-none td-cs-tertiary"/>
+		</div>
+	
+	</div>
+</div>
+
+<div id="login-tour" class="td-callout td-callout-tertiary td-margin-bottom-none td-padding-bottom-03" style="display:block;">
+	<div class="td-callout-content">
+		<div id="login-help" style="margin-top:15px; margin-left:12px; display:none;">
+			<a class="td-link-toggle {targetelement: '.td-login-help2'}" href="#" title="Need Login Help?" tabindex="32"><span class="td-triggericon">Expand</span><span><b>Need Login Help?</b></span></a>
+			<div class="td-JShide td-login-help2" style="margin-top:5px;">
+				<a href="http://td.intelliresponse.com/login/" class="td-popupwindow td-link-newwindow-withicon" rel="width:550;" title="Get Login Help" tabindex="33">Get Login Help</a>
+				<ul class="td-list-links" style="margin-top:5px;">
+					<li><a href="/waw/idp/userNamePasswordHelp.htm?logonId=" title="Reset Password" tabindex="34">Reset Password</a></li>
+					<li><a href="https://www.tdcanadatrust.com/ebanking/sup-br.jsp" title="Supported Browsers" tabindex="35">Supported Browsers</a></li>
+				</ul>
+			</div>
+			<hr class="td-divider-fade td-divider-fade-fadetoright td-cs-tertiary td-margin-top-large td-margin-bottom-none"/>
+		</div>
+	</div>
+	
+</div>
+<div class="td-callout td-callout-tertiary">
+	<div class="td-callout-heading">
+		<h3>Make deposits in a snap</h3>
+	</div>
+	<div class="td-callout-content">
+		<p>
+			 Make mobile deposits on your own schedule by taking a photo with your smartphone.
+		</p>
+		<p>
+			<a href="http://www.td.com/mobiledeposit">Learn more</a>
+		</p>
+	</div>
+</div>
+<!---- cookie detect ---->
+<script type="text/javascript">
+$(".td-JShide").hide();
+function getCookie(c_name)
+{
+var c_value = document.cookie;
+var c_start = c_value.indexOf(" " + c_name + "=");
+if (c_start == -1)
+  {
+  c_start = c_value.indexOf(c_name + "=");
+  }
+if (c_start == -1)
+  {
+  c_value = null;
+  }
+else
+  {
+  c_start = c_value.indexOf("=", c_start) + 1;
+  var c_end = c_value.indexOf(";", c_start);
+  if (c_end == -1)
+  {
+c_end = c_value.length;
+}
+c_value = unescape(c_value.substring(c_start,c_end));
+}
+if (c_value == null) c_value="";
+return c_value;
+}
+var cVal = "" + getCookie("com.td.SSO_DEVICEID_v6") + getCookie("com.td.SSO_DEVICEID");
+	if (cVal.length <3) {
+		$("#img-first").attr("src", "https://www.tdcanadatrust.com/easyweb5/login/images/EW_firsttime.png");
+		$("#login-start").show();
+		$("#login-help").show();
+		$("#login-banner-first").show();
+        } else {
+		$("#login-return").show();
+		setupbanner();
+		$("#login-banner-returning").show();
+         }
+	$("#td-login-help1").show();
+</script>
+
+
+</Div>
+</div>
+<script type="text/javascript">
+	cip_ew_breakOut();
+	framebuster();
+</script>
+
+<script type="text/javascript">
+	var rememberMeMap = {
+	};
+	$("#loginIDComboBox").change(function () {
+		for ( var key in rememberMeMap ) {
+			if ( key === $("#loginIDComboBox").val() ) {
+				$("#login\\:AccessCard").val(rememberMeMap[key].maskedID);
+				$("#login\\:description").val(rememberMeMap[key].description);
+				break;
+			}
+		}
+		$("#rememberMeCBox").attr('checked','checked');
+	});
+	$("#removeFromList").click(function () {
+		$.post("/waw/idp/removeFromList.htm", {'key': $("#loginIDComboBox").val()},
+			function(data, status){
+				if ( status === "success" ) {
+					delete rememberMeMap[$("#loginIDComboBox").val()];
+					$("#loginIDComboBox option:selected").remove();
+					$("#loginIDComboBox").change();
+					if ( $("#loginIDComboBox option").length > 0 ) {
+						if ( $("#loginIDComboBox option").length === 1 ) {
+							$("#dropDownList").css("display","none");
+						}
+					}
+				}
+			}
+		);
+	});
+	$(document).ready(function() {
+		if($("#login\\:AccessCard").val().length == 0) {
+			$("#login\\:AccessCard").focus();
+		} else if($("#login\\:Webpassword").val().length == 0) {
+			$("#login\\:Webpassword").focus();
+		}
+		if ( $("#loginIDComboBox option").length > 0 ) {
+			$("#rememberMeCBox").attr('checked','checked');
+		}
+		if ( $("#loginIDComboBox option").length > 1 ) {
+			$("#dropDownList").css("display","inline");
+		}
+		if ( $("#errorMessage").text().trim() !== "" ) {
+			$("#errorMessage").show();
+			$("#errorMessage").focus();
+		}
+	});
+</script></div>
+			<div id="footerPane"></div>
+		</div>
+	<!-- footer.xhtml -->
+    				
+<footer class="td-layout-row" id="td-layout-footer" role="complementary">
+	<div class="td-layout-column td-layout-grid15 td-noprint" style="width:100%">
+		<ul class="td-list-inline td-copy-sub td-link-colour-grey td-link-nounderline">
+			<li><a href="http://www.td.com/privacyandsecurity" onclick="fnFooter('http://www.td.com/privacyandsecurity'); return false;" title="Privacy and Security">Privacy and Security</a></li>
+			<li><a href="http://www.td.com/to-our-customers/index.jsp" onclick="fnFooter('http://www.td.com/to-our-customers/index.jsp'); return false;" title="Legal">Legal</a></li>
+				<li><a href="http://www.tdcanadatrust.com/customer-service/accessibility/accessibility-at-td/index.jsp" title="Accessibility">Accessibility</a></li>
+		</ul>
+	</div>
+</footer>
+<div id="serverTxt">(Server ID: &nbsp;SE15B &nbsp;:&nbsp;b4907d3c-e8ae-4f44-bcd9-2f21a2049b44&nbsp;)
+		
+<!--  
+<h:outputText value="R15.3.2015.04.01.B7" />
+-->
+
+</div>
+</div>
+
+<!-- BEGIN Omniture SUPPORT -->
+<!-- SiteCatalyst code version: H.22.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="/waw/idp/js/scode_cip.js"></script>
+<script language="JavaScript" type="text/javascript">
+try{
+	// Call addiitonal WebAnalytics fucntions if they have been defined on the child page
+	if(typeof webAnalyticsFunctions != "undefined") {	
+		webAnalyticsFunctions();
+	}
+	// Determine whether CIP error occured
+	if(document.getElementById('errorMessage')) {
+		if( trim(document.getElementById('errorMessage').innerHTML).length ) {		
+			s.eVar13 = trim(removeHTMLTags(document.getElementById('errorMessage').innerHTML));
+		}
+	}
+	customSections('easyweb','','','');
+	s.channel="ca-en";
+	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+	var s_code=s.t();if(s_code)document.write(s_code)//-->
+}
+catch(err)
+{
+}
+</script>
+<script language="JavaScript" type="text/javascript">
+	if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+</script>
+<noscript>
+	<img src="http://metrics.td.com/b/ss/tdtdw/1/H.22--NS/0" height="1" width="1" border="0" />
+</noscript>
+<!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code : H.22. -->
+<!-- END Omniture -->
+
+</body>
+</html>
