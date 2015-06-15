@@ -1,5 +1,4 @@
 import requests
-import urllib
 import wget
 from bs4 import BeautifulSoup
 
@@ -13,5 +12,5 @@ image_link = image_tag.find("img")['src']
 
 full_image_link = "netrunnerdb.com" + image_link
 print full_image_link
-urllib.urlretrieve(full_image_link, "C:\Users\Jason\Documents\Scripts\jasckson_howard.png")
+filename = wget.download(full_image_link)
 
