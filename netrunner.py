@@ -10,7 +10,7 @@ image_tag = soup.find("div", "card-image")
 
 image_link = image_tag.find("img")['src']
 
-full_image_link = "netrunnerdb.com" + image_link
+full_image_link = "http://netrunnerdb.com" + image_link
 print full_image_link
 filename = wget.download(full_image_link)
 
