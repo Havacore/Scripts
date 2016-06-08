@@ -1,3 +1,4 @@
+import urllib
 import requests
 import os
 import sys
@@ -55,7 +56,24 @@ def download_all_cards(arg):
 
 
 def download_set(set_name, set):
-    print set
+    set_link = set['href']
+    if set_link == 'https://netrunnerdb.com/en/set/core':
+        request = requests.get(set['href'])
+        soup = BeautifulSoup(request.content)
+        cards = soup.find("table", "rwd-table table table-striped table-condensed")
+        cards = cards.find_all("a")
+        for card in cards:
+            if card['href'] == "https://netrunnerdb.com/en/card/01001":
+                download_card(card['href'])
+
+
+def download_card(card_link):
+    request = requests.get(card_link)
+    soup = BeautifulSoup(request.content)
+    image_link = soup.find("img")['src']
+
+    urllib.urlretrieve(NETRUNNER_DB_LINK + image_link, "noise.png")
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
